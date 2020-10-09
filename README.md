@@ -1,6 +1,6 @@
 # Sub-Box
 
-A handy tool makes the development on Substrate more smooth and friendly,  features included:
+**A handy tool makes the development on Substrate more smooth and friendly,  features included:**
 
 * Remote boost service to make Substrate compiling faster;
 * A quick multi-node environment to test your MVP in a production environment.
@@ -34,9 +34,12 @@ cargo remote -r popeye-rs@us1.subbox.dev -- build --release
 cargo remote -r popeye-rs@us1.popeye.rs -- build --release
 ```
 
+<<<<<<< HEAD
 >>>>>>> 39dd139... edit Readme.md
 >>>>>>> b464632... edit Readme.md
 
+=======
+>>>>>>> a6e9f3e... delete some err
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
