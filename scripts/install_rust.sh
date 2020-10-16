@@ -15,12 +15,12 @@ chmod -R a+w+r /usr/local/rustup/
 rustup install nightly beta
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
-# Auto upgrade at midnight
-CRON_CONFIG=/root/crontab_temp
-touch $CRON_CONFIG
-echo "0 0 * * * /usr/local/cargo/rustup update >/root/rustup-update.log 2>&1;chmod -R a+w+r /usr/local/cargo/;chmod -R a+w+r /usr/local/rustup/;" >> $CRON_CONFIG
-crontab $CRON_CONFIG
-rm $CRON_CONFIG
+# Auto upgrade at midnight, (disable auto upgrade nightly is broken)
+# CRON_CONFIG=/root/crontab_temp
+# touch $CRON_CONFIG
+# echo "0 0 * * * /usr/local/cargo/rustup update >/root/rustup-update.log 2>&1;chmod -R a+w+r /usr/local/cargo/;chmod -R a+w+r /usr/local/rustup/;" >> $CRON_CONFIG
+# crontab $CRON_CONFIG
+# rm $CRON_CONFIG
 
 # Enable rustup and cargo for all users
 PROFILE_FILE=/etc/profile
