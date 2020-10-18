@@ -12,7 +12,7 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable --no-modify
 chmod -R a+w+w /usr/local/cargo/
 chmod -R a+w+w /usr/local/rustup/
 
-rustup install nightly beta
+rustup install nightly-2020-10-06 beta
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
 # Auto upgrade at midnight, (disable auto upgrade nightly is broken)
