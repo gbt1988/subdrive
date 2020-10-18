@@ -22,7 +22,7 @@ ETCD_CONFIG=/etc/etcd.conf
 echo "SELF_IP=$SELF_IP" >> $ETCD_CONFIG
 echo "NODE_1_IP=$SELF_IP" >> $ETCD_CONFIG
 
-# TODO fix systemd https://docs.portworx.com/reference/knowledge-base/etcd-quick-setup/
+# TODO must fix systemd https://docs.portworx.com/reference/knowledge-base/etcd-quick-setup/
 ETCD_SYSTEMD=/etc/systemd/system/etcd3.service
 cat << EOF >$ETCD_SYSTEMD
 [Unit]

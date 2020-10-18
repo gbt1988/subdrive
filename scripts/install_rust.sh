@@ -15,7 +15,8 @@ chmod -R a+w+w /usr/local/rustup/
 rustup install nightly-2020-10-06 beta
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
-# Auto upgrade at midnight, (disable auto upgrade nightly is broken)
+# Auto upgrade at midnight, disable auto upgrade nightly is broken.
+# no need to update if we reset server every night.
 # CRON_CONFIG=/root/crontab_temp
 # touch $CRON_CONFIG
 # echo "0 0 * * * /usr/local/cargo/rustup update >/root/rustup-update.log 2>&1;chmod -R a+w+r /usr/local/cargo/;chmod -R a+w+r /usr/local/rustup/;" >> $CRON_CONFIG
