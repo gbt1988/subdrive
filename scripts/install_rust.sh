@@ -12,8 +12,8 @@ curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable --no-modify
 chmod -R a+w+w /usr/local/cargo/
 chmod -R a+w+w /usr/local/rustup/
 
-rustup install nightly-2020-10-06 beta
-rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup install nightly-2020-10-06
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06
 
 # Auto upgrade at midnight, disable auto upgrade nightly is broken.
 # no need to update if we reset server every night.
@@ -28,3 +28,13 @@ PROFILE_FILE=/etc/profile
 echo "export PATH=/usr/local/cargo/bin:$PATH" >> $PROFILE_FILE
 echo "export RUSTUP_HOME=/usr/local/rustup" >> $PROFILE_FILE
 echo "export CARGO_HOME=/usr/local/cargo" >> $PROFILE_FILE
+
+# ===================================
+# Install Rust for each user
+
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable --no-modify-path -y
+
+source $HOME/.cargo/env
+
+rustup install nightly-2020-10-06
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06
