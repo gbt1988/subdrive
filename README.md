@@ -10,7 +10,7 @@
 
 ## Use remote comiling service
 
-1. Raise an issue in this repo like [this one](https://github.com/sub-box/sub-box/issues/2).
+1. Raise an issue in this repo like [this one](https://github.com/sub-box/sub-box/issues/2) to get authorized.
 
 2. Install `cargo remote` on your local machine:
 ```shell
