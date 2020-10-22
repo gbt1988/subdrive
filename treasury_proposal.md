@@ -106,11 +106,11 @@ According the task in the technical map,here is a budget based on the tasks and 
 |bandwith:|xxxT
 customized IP
 <!-- -->
-- Deployment Optmize and maintaince
+<!-- - Deployment Optmize and maintaince
 We will make a series of automatic scripts to fit the compiling workflow.
 Monitor the severs,optimize the sever performance,disaster backup to provide stable and convinient service.
 
-A web-based interface will be provided for users to register and get access to the tool. -->
+A web-based interface will be provided for users to register and get access to the tool. --> -->
 <!-- ![web](images/web.png) -->
 
 ## Team introduction
