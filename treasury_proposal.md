@@ -96,7 +96,7 @@ Tasks:
 
 According the task in the technical map,here is a budget based on the tasks and sources.
 <!-- ![Budget](images/Budget.png) -->
-![Budget](https://github.com/sub-box/sub-box/blob/kevin/images/budget2.png)
+![Budget](https://github.com/sub-box/sub-box/blob/kevin/images/budget.png)
 
 
 <!-- ### Server configuration
