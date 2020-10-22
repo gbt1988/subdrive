@@ -1,15 +1,15 @@
-# About Sub-Box
+# About SubBox
 
 **A handy tool makes the development on Substrate more smooth and friendly,  features included:**
 
 * Remote boost service to make Substrate compiling faster;
-* A quick multi-node environment to test your MVP in a production environment.
-* Smart contract sandbox.
+* A quick multi-node environment to test your MVP;
+* Smart contract sandbox;
 * All-in-one depolyment helper;
 * Nocode (draw and drag) for Substrate;
 
 
-# Subbooster, a remote comiling service module of Sub-Box
+# SubBooster, a remote comiling service module of SubBox
 
  A free compiling speed up service for Substrate community includes Kusama, Polkadot, and parachain teams which makes development on substrate more efficiency.
 
