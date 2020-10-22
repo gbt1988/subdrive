@@ -124,7 +124,7 @@ Monitor the severs,optimize the sever performance,disaster backup to provide sta
 
 ## Join for early test
 
-Please read this [guide](https://github.com/sub-box/sub-box) and apply a test account by [post an issue](https://github.com/sub-box/sub-box/issues) here.
+Please read this [guide](https://github.com/sub-box/sub-box) and apply a test account by [post an issue](https://github.com/sub-box/SubBox/issues/2) here.
 
 Welcome to [Join our community](https://matrix.to/#/!gfhnvVqzkcifYdNRGE:matrix.org?via=matrix.org)
 
