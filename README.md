@@ -1,4 +1,4 @@
-# Sub-Box
+# About Sub-Box
 
 **A handy tool makes the development on Substrate more smooth and friendly,  features included:**
 
@@ -7,6 +7,11 @@
 * Smart contract sandbox.
 * All-in-one depolyment helper;
 * Nocode (draw and drag) for Substrate;
+
+
+# RCS, a remote comiling service module of Sub-Box
+
+ A free compiling speed up service for Substrate community includes Kusama, Polkadot, and parachain teams which makes development on substrate more efficiency.
 
 ## Use remote comiling service
 
