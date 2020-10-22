@@ -1,19 +1,19 @@
-# Treasury proposal: Subbooster,a Remote compiling tool for Substrate developers.
+# Treasury proposal: SubBooster,a remote compiling tool for Substrate developers.
 
-Here we are introducing a remote compiling speed up tool which is named `Subboster` to our community. By engaging a remote service,it helps developers to compile their project in a more efficient way. We've made a pratical MVP for several developers to test, and we are thrilled to invite more people to test and use it~
+Here we are introducing a remote compiling speed up tool which is named `SubBooster` to our community. By engaging a remote service,it helps developers to compile their project in a more efficient way. We've made a pratical MVP for several developers to test, and we are thrilled to invite more people to test and use it~
 
 ## Why we make it?
 
-When we develop on the substrate, there some things alwalys make us mad, ruin our day included:
+When we develop on the substrate, there are some things alwalys make us mad, ruin our day included:
 
 * Unacceptable compiling time;
 * Weak IDE support;
 * No binary smart contract sandbox;
 * Complex deployment process, etc.
 
-We have been trying to improve above situations for our own sake, like using remote machine to speed up the compiling. Afterwards, we think it would also be useful for others.So we got the idea to make a `Substrate Box` which aims to make the development on Substrate more efficiency and friendly.
+We have been trying to improve above situations for our own sake, like using remote machine to speed up the compiling. Afterwards, we think it would also be useful for others.So we got the idea to make a `SubBox` which aims to make the development on Substrate more efficiency and friendly.
 
-And ,As you know `Subboster` is the first module of our project
+And ,As you know `SubBooster` is the first module of our project
 
 <!-- With the of development of Polkadot and KUSAMA ,more and more peole are involved into the substrate ecosystem.Including developers who making their project on substrate and students or blockchain fans doing experiments on it.while the substrate framwork require a crucial compute source far beyond common users device.It usually takes hours to do the compile stuff.It's neither easy nor efficiency to compile the project for users,which keep many people out of this brand new field. -->
 
@@ -44,7 +44,7 @@ The cancellation of register will happen in scenarios,
 
 * We made useful tools to helop attract more Rust developers to Substrate development.
 * We help to save non-renewale time for Substrate developers and boost their project.
-* We will create more use cases for well designed feathers such as onchain identify to leverage the value of our network
+* We will create more use cases for well designed feathers such as onchain identify/vote to leverage the value of our network
 
 
 ## Technical roadmap
@@ -64,7 +64,7 @@ Tasks:
 
 ### Milestone 2: onchain integration.
 
-Period: 1 month.
+Period: 1.5 month.
 
 After this milestone, users can register the web app with Kusama/Polkadot account and sign a message to prove that they are eligible to use the compiling service.
 
@@ -78,24 +78,25 @@ Tasks:
 
 After this milestone, users should be able to apply free compiling service based on their onchain identity. We also plan to help students who don't have money to register onchain identity.
 
-Period: 2 months.
+we will get reach to the users from the rust community, Polkadot community, KUSAMA community,and provide guidance docs and online communication through Discord, Telegram, Wechat,etc to insure more people make best use of this tool.
+
+Period: 1.5 months.
 
 Tasks:
 
 * benchmark how many users can be supported in single server;
 * scripts to scale up compiling servers;
-* add proto code logic for students and new comers;
+* add promote code logic for students and new comers;
 * implement cancellation of service based on the above mentioned rules;
 * consulting 3rd party to finalize terms of service.
+* User community maintaince
+
 
 ## Budget
 
-| Item | Budget |
-| -------- | -------- |
-| Milestone1 | 400 ksm |
-| Milestone2 | 400 ksm |
-| Milestone3 | 600 ksm |
-| 6 months servers rent and maintain (up to 10 servers) | 300 ksm |
+According the task in the technical map,here is a budget based on the tasks and sources.
+
+
 
 ### Server configuration
 - renting servers :10 severs well meet the requirements
@@ -104,26 +105,21 @@ Tasks:
 250G SSD |64G Memory
 |bandwith:|xxxT
 customized IP
-
+<!--
 - Deployment Optmize and maintaince
 We will make a series of automatic scripts to fit the compiling workflow.
 Monitor the severs,optimize the sever performance,disaster backup to provide stable and convinient service.
 
-A web-based interface will be provided for users to register and get access to the tool.
+A web-based interface will be provided for users to register and get access to the tool. -->
 <!-- ![web](images/web.png) -->
-
-- User community maintaince
-we will get reach to the users from the rust community, Polkadot community, KUSAMA community,
-and provide guidance docs and online communication through Discord, Telegram, Wechat,etc to insure more people make best use of this tool.
 
 ## Team introduction
 
-[Kevin](https://github.com/gbt1988) &
-[popeye](https://github.com/popeye-rs)   
+[Kevin](https://github.com/gbt1988)     :no4long@gmail.com
 
-We are all both indie developers and KSM & DOT fans.
+[Popeye](https://github.com/popeye-rs)  :popeye-rs@163.com
 
-Contact: no4long / gmail.com(replace / with @)
+
 
 ## Join for early test
 
