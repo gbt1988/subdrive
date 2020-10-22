@@ -1,6 +1,6 @@
 # Treasury proposal: SubBooster,a remote compiling tool for Substrate developers.
 
-Here we are introducing a remote compiling speed up tool which is named `SubBooster` to our community. By engaging a remote service,it helps developers to compile their project in a more efficient way. We've made a pratical MVP for several developers to test, and we are thrilled to invite more people to test and use it~
+Here we are introducing a remote compiling speed up tool which is named `SubBooster` to our community. By engaging a remote service,it helps developers to compile their project in a more efficient way. We've made a pratical MVP for several developers to test, and we are thrilled to invite more people to [test and use it~](https://github.com/sub-box/sub-box)
 
 ## Why we make it?
 
@@ -95,17 +95,17 @@ Tasks:
 ## Budget
 
 According the task in the technical map,here is a budget based on the tasks and sources.
+![Budget](images/Budget.png)
 
 
-
-### Server configuration
+<!-- ### Server configuration
 - renting servers :10 severs well meet the requirements
 |Amd |3950x| CPU
 16core| 32threads
 250G SSD |64G Memory
 |bandwith:|xxxT
 customized IP
-<!--
+<!-- -->
 - Deployment Optmize and maintaince
 We will make a series of automatic scripts to fit the compiling workflow.
 Monitor the severs,optimize the sever performance,disaster backup to provide stable and convinient service.
