@@ -13,7 +13,7 @@ When we develop on the substrate, there are some things alwalys make us mad, rui
 
 We have been trying to improve above situations for our own sake, like using remote machine to speed up the compiling. Afterwards, we think it would also be useful for others.So we got the idea to make a `SubBox` which aims to make the development on Substrate more efficiency and friendly.
 
-And ,As you know `SubBooster` is the first module of our project
+And ,As you know `SubBooster` is the first module of our project.
 
 <!-- With the of development of Polkadot and KUSAMA ,more and more peole are involved into the substrate ecosystem.Including developers who making their project on substrate and students or blockchain fans doing experiments on it.while the substrate framwork require a crucial compute source far beyond common users device.It usually takes hours to do the compile stuff.It's neither easy nor efficiency to compile the project for users,which keep many people out of this brand new field. -->
 
