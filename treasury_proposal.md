@@ -1,17 +1,19 @@
-# Substrate Box treasury expense proposal
+# Treasury proposal: Subbooster,a Remote compiling tool for Substrate developers.
 
-Hi all,
+Here we are introducing a remote compiling speed up tool which is named `Subboster` to our community. By engaging a remote service,it helps developers to compile their project in a more efficient way. We've made a pratical MVP for several developers to test, and we are thrilled to invite more people to test and use it~
 
-Let me have a quick introduction of my team's project `Substrate Box` which aims to make the development on Substrate friendly, a.k.a fix the pain points. During our learning path, things that ruin our day includes,
+## Why we make it?
+
+When we develop on the substrate, there some things alwalys make us mad, ruin our day included:
 
 * Unacceptable compiling time;
 * Weak IDE support;
 * No binary smart contract sandbox;
 * Complex deployment process, etc.
 
-We have been trying to improve above situations for our own sake, like using remote machine to speed up the compiling. Afterwards, we think it would also be useful for others.
+We have been trying to improve above situations for our own sake, like using remote machine to speed up the compiling. Afterwards, we think it would also be useful for others.So we got the idea to make a `Substrate Box` which aims to make the development on Substrate more efficiency and friendly.
 
-Now I would like open the discussion for a treasury spending proposal: a free compiling speed up service for Substrate community includes Kusama, Polkadot, and parachain teams.
+And ,As you know `Subboster` is the first module of our project
 
 <!-- With the of development of Polkadot and KUSAMA ,more and more peole are involved into the substrate ecosystem.Including developers who making their project on substrate and students or blockchain fans doing experiments on it.while the substrate framwork require a crucial compute source far beyond common users device.It usually takes hours to do the compile stuff.It's neither easy nor efficiency to compile the project for users,which keep many people out of this brand new field. -->
 
@@ -21,7 +23,7 @@ The current MVP is implemented in following steps,
 
 1. user provides name and SSH public key to admin;
 2. admin creates specific user account and authorizes this key in compiling server;
-3. user isntalls [cargo remote](https://github.com/sgeisler/cargo-remote) and configure it to use above compiling server. 
+3. user isntalls [cargo remote](https://github.com/sgeisler/cargo-remote) and configure it to use above compiling server.
 4. user compiles projects using `cargo remote` and tests the binary by logining the compiling server.
 
 As you can see, most of the above actions are operated manually. We are going to implement following features in this proposal,
@@ -36,13 +38,14 @@ The cancellation of register will happen in scenarios,
 * onchain identity is removed;
 * user uses the service aginst the rules.
 
-## What's value
+## How to benefit our community?
 
-We intend to bring these values to the ecosystem,
+<!-- We make good toointend to bring these values to the ecosystem: -->
 
-* save non-renewale time for Substrate developers;
-* bring use cases for onchain identify;
-* attract more Rust developers to Substrate development.
+* We made useful tools to helop attract more Rust developers to Substrate development.
+* We help to save non-renewale time for Substrate developers and boost their project.
+* We will create more use cases for well designed feathers such as onchain identify to leverage the value of our network
+
 
 ## Technical roadmap
 
@@ -104,9 +107,10 @@ customized IP
 
 - Deployment Optmize and maintaince
 We will make a series of automatic scripts to fit the compiling workflow.
-Monitor the severs,optimize the sever performance,disaster backu to provide stable and convinient service.
+Monitor the severs,optimize the sever performance,disaster backup to provide stable and convinient service.
+
 A web-based interface will be provided for users to register and get access to the tool.
-![web](images/web.png)
+<!-- ![web](images/web.png) -->
 
 - User community maintaince
 we will get reach to the users from the rust community, Polkadot community, KUSAMA community,
@@ -114,10 +118,15 @@ and provide guidance docs and online communication through Discord, Telegram, We
 
 ## Team introduction
 
-[Kevin](https://github.com/gbt1988)
-[popeye](https://github.com/popeye-rs)
+[Kevin](https://github.com/gbt1988) &
+[popeye](https://github.com/popeye-rs)   
+
+We are all both indie developers and KSM & DOT fans.
+
+Contact: no4long / gmail.com(replace / with @)
 
 ## Join for early test
 
-TODO
+Please read this [guide](https://github.com/sub-box/sub-box) and apply a test account by [post an issue](https://github.com/sub-box/sub-box/issues) here.
 
+<!-- ## More about Subbox -->
