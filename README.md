@@ -30,8 +30,6 @@ cd substrate-node-template
 cargo remote -r popeye-rs@us1.popeye.rs -- build --release
 ```
 
->>>>>>> 39dd139... edit Readme.md
-
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
