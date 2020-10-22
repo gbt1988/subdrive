@@ -1,9 +1,9 @@
 # About SubBox
-
+![SubBox](https://github.com/sub-box/sub-box/blob/kevin/images/subbox_logo.png)
 **A handy tool makes the development on Substrate more smooth and friendly,  features included:**
 
 <!-- ![SubBox](images/subbox_log.png) -->
-![SubBox](https://github.com/sub-box/sub-box/blob/kevin/images/subbox_logo.png)
+
 * Remote boost service to make Substrate compiling faster;
 * A quick multi-node environment to test your MVP;
 * Smart contract sandbox;
