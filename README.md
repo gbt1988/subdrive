@@ -1,17 +1,18 @@
-# Substrate Box
+# Sub-Box
 
-A smart box which makes the development on Substrate friendly, features planned:
+A handy tool makes the development on Substrate more smooth and friendly,  features included:
 
-* Substrate compiling service;
+* Remote boost service to make Substrate compiling faster;
+* A quick multi-node environment to test your MVP in a production environment.
+* Smart contract sandbox.
 * All-in-one depolyment helper;
 * Nocode (draw and drag) for Substrate;
-* Smart contract sandbox.
 
-## How to use comiling service
+## Use remote comiling service
 
 1. Raise an issue in this repo like [this one](https://github.com/sub-box/sub-box/issues/2).
 
-2. Install [Rust](https://doc.rust-lang.org/cargo/getting-started/installation.html) if you don't have it.
+2. Install `cargo remote` on your local machine:
 ```shell
 curl https://sh.rustup.rs -sSf | sh
 ```
@@ -26,8 +27,15 @@ cargo install --path cargo-remote/
 ```shell
 cd substrate-node-template
 
+<<<<<<< HEAD
 cargo remote -r popeye-rs@us1.subbox.dev -- build --release
 ``` 
+=======
+cargo remote -r popeye-rs@us1.popeye.rs -- build --release
+```
+
+>>>>>>> 39dd139... edit Readme.md
+>>>>>>> b464632... edit Readme.md
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
