@@ -1,17 +1,26 @@
-# Substrate Box
+# About SubBox
+![SubBox](https://github.com/sub-box/sub-box/blob/kevin/images/subbox_logo.png)
 
-A smart box which makes the development on Substrate friendly, features planned:
+**A handy tool makes the development on Substrate more smooth and friendly,  features included:**
 
-* Substrate compiling service;
+<!-- ![SubBox](images/subbox_log.png) -->
+
+* Remote boost service to make Substrate compiling faster;
+* A quick multi-node environment to test your MVP;
+* Smart contract sandbox;
 * All-in-one depolyment helper;
 * Nocode (draw and drag) for Substrate;
-* Smart contract sandbox.
 
-## How to use comiling service
 
-1. Raise an issue in this repo like [this one](https://github.com/sub-box/sub-box/issues/2).
+# SubBooster, a remote comiling service module of SubBox
 
-2. Install [Rust](https://doc.rust-lang.org/cargo/getting-started/installation.html) if you don't have it.
+ A free compiling speed up service for Substrate community includes Kusama, Polkadot, and parachain teams which makes development on substrate more efficiency.
+
+## Use remote comiling service
+
+1. Raise an issue in this repo like [this one](https://github.com/sub-box/sub-box/issues/2) to get authorized.
+
+2. Install `cargo remote` on your local machine:
 ```shell
 curl https://sh.rustup.rs -sSf | sh
 ```
@@ -25,9 +34,8 @@ cargo install --path cargo-remote/
 4. Now go to Substrate based codebase, and use the compiling service.replace `popeye-rs` with your username:
 ```shell
 cd substrate-node-template
-
 cargo remote -r popeye-rs@us1.subbox.dev -- build --release
-``` 
+```
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
