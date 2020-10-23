@@ -26,7 +26,7 @@ cargo install --path cargo-remote/
 ```shell
 cd substrate-node-template
 
-cargo remote -r popeye-rs@us1.popeye.rs -- build --release
+cargo remote -r popeye-rs@us1.subbox.dev -- build --release
 ``` 
 
 ## License
