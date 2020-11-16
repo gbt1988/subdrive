@@ -4,6 +4,7 @@ set -eu
 
 # Install Rust for each user
 
+# Make it from environment variable
 USER_NAME=sample3
 
 su - $USER_NAME -c "curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable --no-modify-path -y"
